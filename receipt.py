@@ -4,7 +4,7 @@ import re
 
 # Tesseract 경로 설정 (만약 다른 경로에 설치되어 있다면 변경해야 함)
 pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
-
+#변경
 def extract_total_amount_from_image(image_path):
     """
     이미지에서 금액을 추출하여 반환하는 함수.
